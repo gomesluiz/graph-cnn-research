@@ -8,7 +8,10 @@ Graph Convulutional Neural Network Research
 ## Papers
 
 ### 2016 
-- [Graph Convolutional Networks](http://tkipf.github.io/graph-convolutional-networks/)
+- <a name="gcnn"></a>Kipf, Thomas N. Graph Convolutional Networks. [Paper link](http://tkipf.github.io/graph-convolutional-networks/). 
+    - Example code: NA
+    - Tags: graph neural network, convolutional network 
+
 
 - <a name="semi-gcnn"></a> Kipf, Thomas N and Welling, Max. Semi-Supervised Classification with Graph Convolutional Networks. [Paper link](https://arxiv.org/abs/1609.02907). 
     - Example code: NA
