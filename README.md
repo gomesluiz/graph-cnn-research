@@ -22,3 +22,12 @@ Graph Convulutional Neural Network Research
 - <a name="eeg-gcnn"></a> Wu et al. A Comprehensive Survey on Graph Neural Networks. [Paper link](https://arxiv.org/pdf/1901.00596). 
     - Example code: NA
     - Tags: graph neural network, survey 
+
+## Videoclasses
+
+### 2021
+- <a name="cs224w"></a> Leskovec, J. Machine Learning with Graphs. [Videos link](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn). 
+    - Example code: NA
+    - Tags: graph neural network, course 
+
+
