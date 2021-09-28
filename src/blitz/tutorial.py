@@ -1,4 +1,5 @@
 import dgl
+from dgl.data.graph_serialize import load_labels
 import torch 
 import torch.nn as nn 
 import torch.nn.functional as F
@@ -27,3 +28,52 @@ class GCN(nn.Module):
         h = F.relu(h)
         h = self.conv2(g, h)
         return h
+
+# create the model with given dimensions
+model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes)
+
+# training GCN 
+def train(g, model):
+    optimizer=torch.optim.Adam(model.parameters(), lr=0.01)
+    best_val_acc=0
+    best_test_acc=0
+
+    features = g.ndata['feat']
+    labels = g.ndata['label']
+    train_mask = g.ndata['train_mask']
+    val_mask = g.ndata['val_mask']
+    test_mask = g.ndata['val_mask']
+    for e in range(100):
+        # forward 
+        logits = model(g, features)
+
+        # compute prediction
+        pred = logits.argmax(1)
+
+        # compute loss
+        # note that you should only compute the losses of the nodes in training set.
+        loss = F.cross_entropy(logits[train_mask], labels[train_mask])
+
+        # compute accuracy on training/validation/test
+        train_acc = (pred[train_mask] == labels[train_mask]).float().mean()
+        val_acc = (pred[val_mask] == labels[val_mask]).float().mean()
+        test_acc = (pred[test_mask] == labels[test_mask]).float().mean()
+
+        # save the best validation accuracy and the corresponding test accuracy
+        if best_test_acc < val_acc:
+            best_val_acc = val_acc
+            best_test_acc = test_acc
+        
+        # backward
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+        if e % 5 == 0:
+            print('In epoch{}, loss: {:.3f}, val acc: {:.3f} (best: {:.3f}), test acc: {:.3f}, (best: {:.3f})'.format(
+                e, loss, val_acc, best_val_acc, test_acc, best_test_acc))
+
+model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes)
+train(g, model)
+
+     
