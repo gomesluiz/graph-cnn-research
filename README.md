@@ -35,14 +35,8 @@ Graph Convulutional Neural Network Research
 ## Videoclasses
 
 ### 2021
-- <a name="jovian"></a> Jovian. Deep Learning with Pytorch: Zero to GANs. [Videos link](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans). 
-    - Example code: NA
-    - Tags: deep learning, pytorch, course 
-
 - <a name="cs224w"></a> Leskovec, J. Machine Learning with Graphs. [Videos link](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn). 
     - Example code: NA
     - Tags: graph neural network, course 
-
-
 
 
