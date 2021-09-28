@@ -3,15 +3,12 @@ Graph Convulutional Neural Network Research
 
 
 ## Libraries 
-<<<<<<< HEAD
 
 ### Deep Learning Frameworks
 * [Pytorch](https://pytorch.org/)
 * [TensorFlow](https://www.tensorflow.org/)
 
 ### Graph Neural Network
-=======
->>>>>>> parent of 4558bb5 (Deep learning frameworks links included)
 * [Deep Graph Library](https://www.dgl.ai/) 
 
 ## Papers

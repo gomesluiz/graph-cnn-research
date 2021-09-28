@@ -130,4 +130,5 @@ dmypy.json
 
 # Pytorch data
 data/*
-data/FashionMNIST/raw/*
+
+.DS_Store
