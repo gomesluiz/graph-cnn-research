@@ -6,7 +6,7 @@ Graph Convulutional Neural Network Research
 
 ### Deep Learning Frameworks
 * [Pytorch](https://pytorch.org/)
-* [TensorFlow] (https://www.tensorflow.org/)
+* [TensorFlow](https://www.tensorflow.org/)
 
 ### Graph Neural Network
 * [Deep Graph Library](https://www.dgl.ai/) 
