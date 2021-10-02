@@ -104,3 +104,5 @@ for t in range(epochs):
     train(training_dataloader, model, loss_fn, optimizer)
     test(test_dataloader, model, loss_fn)
 
+torch.save(model.state_dict(), "model.pth")
+print("Saved Pytorch Model State to model.pth")

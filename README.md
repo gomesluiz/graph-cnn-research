@@ -32,6 +32,10 @@ Graph Convulutional Neural Network Research
 ## Videoclasses
 
 ### 2021
+- <a name="mit6.s191"></a> MIT. Introduction to Deep Learning. [Videos link](http://introtodeeplearning.com/). 
+    - Example code: NA
+    - Tags: deep neural network, pytorch, course 
+
 - <a name="jovial"></a> Jovial. Deep Learning with Pytorch: Zero to GANs. [Videos link](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans). 
     - Example code: NA
     - Tags: deep neural network, pytorch, course 
