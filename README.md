@@ -29,6 +29,13 @@ Graph Convulutional Neural Network Research
     - Example code: NA
     - Tags: graph neural network, survey 
 
+
+## 2020
+- <a name="zhou-2020"></a> Zhou et al. Graph neural networks: A review of methods and applications. [Paper link](https://www.sciencedirect.com/science/article/pii/S2666651021000012). 
+    - Example code: NA
+    - Tags: graph neural network, survey 
+
+
 ## Videoclasses
 
 ### 2021
