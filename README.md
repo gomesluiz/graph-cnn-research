@@ -50,3 +50,9 @@ Graph Convulutional Neural Network Research
 - <a name="cs224w"></a> Leskovec, J. Machine Learning with Graphs. [Videos link](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn). 
     - Example code: NA
     - Tags: graph neural network, course 
+
+- <a name="velickovic2021"></a> Velikovic, P. Intro to graph neural networks (ML Tech Talks). [Videos link](https://www.youtube.com/watch?v=8owQBFAHw7E). 
+    - Example code: NA
+    - Tags: graph neural network, tensor flow, speech 
+
+
