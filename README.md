@@ -55,4 +55,6 @@ Graph Convulutional Neural Network Research
     - Example code: NA
     - Tags: graph neural network, tensor flow, speech 
 
+## Plataform for designing 
 
+- [GraphGym](https://github.com/snap-stanford/GraphGym)
