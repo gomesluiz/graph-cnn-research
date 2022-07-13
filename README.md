@@ -10,6 +10,7 @@ Graph Convulutional Neural Network Research
 
 ### Graph Neural Network
 * [Deep Graph Library](https://www.dgl.ai/) 
+* [PyG](https://www.pyg.org/news/index/)
 
 ## Papers
 
@@ -35,6 +36,9 @@ Graph Convulutional Neural Network Research
     - Example code: NA
     - Tags: graph neural network, survey 
 
+
+## Courses
+- [CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
 
 ## Videoclasses
 
