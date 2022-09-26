@@ -1,5 +1,5 @@
 # graph-cnn-research
-Graph Convulutional Neural Network Research
+Graph Convolutional Neural Network Research
 
 
 ## Libraries 
