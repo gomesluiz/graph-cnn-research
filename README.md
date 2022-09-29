@@ -36,7 +36,11 @@ Graph Convolutional Neural Network Research
     - Example code: NA
     - Tags: graph neural network, survey 
 
-
+## 2022
+- <a name="ferludin-2022"></a> Ferludin et al. TF-GNN: Graph Neural Networks in TensorFlow. [Paper link](https://arxiv.org/abs/2207.03522). 
+    - Example code: NA
+    - Tags: graph neural network, survey
+    
 ## Courses
 - [CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
 
